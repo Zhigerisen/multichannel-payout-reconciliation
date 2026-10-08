@@ -1,0 +1,7 @@
+# Order & Payout Reconciliation — flagship case A engine
+# Python 3.11+
+pandas>=2.1
+numpy>=1.26
+rapidfuzz>=3.6        # fuzzy fallback matching (missing/mangled order ids)
+matplotlib>=3.8       # headless dashboard + slide rendering (no browser)
+pyyaml>=6.0           # fee-model / rules config

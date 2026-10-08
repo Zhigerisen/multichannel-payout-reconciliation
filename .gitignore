@@ -1,0 +1,10 @@
+# Generated data and deliverables — reproducible with `python src/generate.py`
+out/
+
+# Internal handoff notes (not part of the public project)
+case.md
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
